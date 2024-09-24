@@ -18,7 +18,7 @@ body {
     left: 0;
     width: 130%;
     height: 100%;
-    background: linear-gradient(to right, transparent, rgba(4, 33, 61, 0.9), transparent);
+    background: linear-gradient(to right, transparent, rgba(5, 24, 43, 0.9), transparent);
     background-size: 200% 100%;
     animation: waveOpacity 5s linear infinite;
 }
@@ -38,14 +38,29 @@ body {
     background-color: #021526;
     box-shadow: 0px 0px 30px rgb(0, 0, 0);
     display: flex;
-    position: relative; /* Keep this to use absolute positioning inside */
+    position: relative; 
     overflow: hidden;
     opacity: 0.98;
 }
 
+.buttonbox{
+    position: relative;
+    display: flex;
+    top: 25vh;
+    left: 15vw;
+    width: 30vw;
+    height: 7vh;
+    gap: 2vw;
+}
+
+.btn{
+    height: 100%;
+    width: 24%;
+}
+
 #lbl-welcome {
     position: absolute;
-    left: 45vh;
+    left: 15vw;
     top: 3vh;
     font-size: 5vw;
     color: rgb(17, 73, 110);
