@@ -1,0 +1,12 @@
+body{
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.container{
+    display: flex;
+}
+.middle{
+    margin: 0;
+}
